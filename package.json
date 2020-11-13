@@ -1,0 +1,21 @@
+{
+  "name": "lowdb-pnode-restapi",
+  "version": "1.0.0",
+  "description": "1) Crear carpeta lowdb-pnode-restapi en el escritorio\r 2) En una terminal hacer:\r         > cd desktop\r         > cd lowdb-pnode-restapi\r         > code .\r 3) En Visual Studio Code apretar \"Ctrl + shift + p\" y escribir terminal:integrate (Crear nueva terminal integrada)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --ignore db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "morgan": "^1.10.0",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
